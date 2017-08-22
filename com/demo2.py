@@ -6,10 +6,10 @@ y1 = 2 * x + 1
 y2 = x ** 2
 
 plt.figure()
-plt.plot(x, y1,label='down')
+plt.plot(x, y1, label='down')
 
 # plt.figure(num=3, figsize=(8, 5))
-plt.plot(x, y2,label='up')
+plt.plot(x, y2, label='up')
 # plt.plot(x, y1, color='red', linewidth=2.0, linestyle='--')
 
 plt.xlim((-1, 2))
